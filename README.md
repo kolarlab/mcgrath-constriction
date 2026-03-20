@@ -9,13 +9,15 @@ The repository contains input files to run molecular dynamics simulations in the
 
 
 ## Structure
+
+```
 ├── analyses
 │   ├── output_files
-│   │   ├── closest_atoms
-│   │   ├── cog_dist
-│   │   ├── cs_width
+│   │   ├── closest_atoms       # 
+│   │   ├── cog_dist            # center-of-geometry distance
+│   │   ├── cs_width            # constriction-site width
 │   │   ├── peptide_end_to_end  # end-to-end distance
-│   │   ├── polar               # polar protection
+│   │   ├── polar               # polar projections (water-related data gzipped)
 │   │   └── rmsf                # root-mean-square fluctuations
 │   └── scripts                 # JupPyter lab notebooks to generate figures
 ├── experiments
@@ -26,4 +28,4 @@ The repository contains input files to run molecular dynamics simulations in the
     ├── gly11
     ├── gly5
     └── mdp
-
+```
