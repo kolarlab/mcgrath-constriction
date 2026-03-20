@@ -22,10 +22,17 @@ The repository contains input files to run molecular dynamics simulations in the
 │   └── scripts                 # JupPyter lab notebooks to generate figures
 ├── experiments
 └── simulations
-    ├── ala11
-    ├── ala5
-    ├── empty
-    ├── gly11
-    ├── gly5
-    └── mdp
+    ├── ALA11
+    │   ├── amberRibo.ff        # force-field directory
+    │   ├── POSRE               # position-restraints files
+    │   ├── residuetypes.dat    # force-field associated file
+    │   ├── system.ndx          # Gromacs index file
+    │   ├── system.pdb.gz       # simulated system PDB
+    │   ├── system.top          # main topology file
+    │   └── TOPOL               # included topology files
+    ├── ALA5
+    ├── EMPTY
+    ├── GLY11
+    ├── GLY5                     
+    └── mdp                     # Gromacs MDP files
 ```
